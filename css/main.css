@@ -567,7 +567,6 @@ header {
         stroke: #00a4ff;
         stroke-width: 1;
         -webkit-filter: drop-shadow(0px 5px 0px rgba(0, 0, 0, 0.2));
-        -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=5, Color='#ccc')";
         filter: drop-shadow(0 5px 0px rgba(0, 0, 0, 0.2)); }
       @media (max-width: 45em) {
         .information_wrap .tabs_wrap .icon_bg:hover, .information_wrap .tabs_wrap .icon_bg.active {
