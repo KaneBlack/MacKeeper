@@ -98,21 +98,6 @@ b {
       display: none; } }
 
 /*UI elements style*/
-.posXY {
-  background: rgba(0, 0, 0, 0.1);
-  position: absolute;
-  left: 0;
-  top: 0;
-  pointer-events: none;
-  z-index: 20000;
-  transition: background 0.2s linear; }
-  .posXY.posX {
-    width: 100%;
-    height: 1px; }
-  .posXY.posY {
-    height: 100%;
-    width: 1px; }
-
 /*Sprite images*/
 .sprite {
   background: url(../img/spritesheet.png) no-repeat;
