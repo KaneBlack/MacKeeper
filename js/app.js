@@ -1,0 +1,2 @@
+
+$(document).foundation();$(document).ready(function(){$('.icon_bg').click(function(){var dataInfo=$(this).data('clickInfo');$('.icon_bg').removeClass('active');$(this).addClass('active');$('.big_ico_wrap').attr("class","big_ico_wrap info_icon "+infoLink[dataInfo].image);$('.title_ico').text(infoLink[dataInfo].title);$('.info_text p').text(infoLink[dataInfo].info);$('.btn_info').attr("href",infoLink[dataInfo].link);});});
